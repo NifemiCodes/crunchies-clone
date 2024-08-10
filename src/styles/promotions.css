@@ -1,0 +1,19 @@
+.promotions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.promotions--bottom-div {
+  display: flex;
+  gap: 20px;
+}
+
+.offer-container {
+  flex: 1;
+  background-image: grey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

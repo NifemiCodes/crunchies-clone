@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.header-text > h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--black);
+}
+
+.header-text > p {
+  color: var(--grey);
+  font-size: 14px;
+}
+
+.header-image {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: var(--redT);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

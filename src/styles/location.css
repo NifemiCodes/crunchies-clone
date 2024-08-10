@@ -1,0 +1,35 @@
+.location-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("public/location-bg.png") no-repeat center;
+  background-size: contain;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.sub-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-icon {
+  background-color: var(--paleRedT);
+  border-radius: 50%;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-text > h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.location-text > p {
+  font-size: 13px;
+  color: var(--grey);
+}
