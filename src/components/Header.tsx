@@ -8,7 +8,7 @@ const Header = () => {
         <p>It's lunch time!</p>
       </div>
       <div className="header-image">
-        <img src={`public/search-icon.svg`} alt="search icon" />
+        <img src={`${import.meta.env.BASE_URL}public/search-icon.svg`} alt="search icon" />
       </div>
     </div>
   );
