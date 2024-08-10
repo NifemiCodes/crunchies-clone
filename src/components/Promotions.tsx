@@ -14,8 +14,8 @@ const Offer = ({ text, image }: OfferInterface) => {
   return (
     <div className="offer-container">
       <div className="offer-images">
-        <img src={`${import.meta.env.BASE_URL}public/sparkles.png`} alt="sparkles" />
-        <img src={`${import.meta.env.BASE_URL}public/${image}`} alt="graphic" />
+        <img src={`${import.meta.env.BASE_URL}sparkles.png`} alt="sparkles" />
+        <img src={`${import.meta.env.BASE_URL}${image}`} alt="graphic" />
       </div>
 
       <div className="offer-text">
@@ -30,7 +30,7 @@ const Promotions = () => {
     <div className="promotions-container">
       {/* top row */}
       <div className="promotions--top-div">
-        <img src={`${import.meta.env.BASE_URL}public/ofada-banner.png`} alt="banner image" />
+        <img src={`${import.meta.env.BASE_URL}ofada-banner.png`} alt="banner image" />
       </div>
 
       {/* bottom row */}
