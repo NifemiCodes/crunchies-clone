@@ -1,0 +1,85 @@
+.hotdeals-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title-container {
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--paleRed);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.deal-card {
+  margin-inline-start: 20px;
+  position: relative;
+  min-width: 200px;
+}
+
+.deal-image {
+  width: 100%;
+}
+
+.deal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  background-color: var(--blackT);
+  backdrop-filter: blur(3px);
+  color: var(--white);
+  padding: 10px;
+  border-radius: 12px;
+  top: 40%;
+  right: 8px;
+  left: 8px;
+  bottom: 10px;
+}
+
+.deal-info .top-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.deal-inf0 .top-container p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.deal-info .top-container img {
+  width: 16px;
+}
+
+.deal-info .price-container {
+  display: flex;
+  gap: 4px;
+  align-items: start;
+}
+
+.deal-info .price-container img {
+  width: 7px;
+}
+
+.deal-info .price-container p {
+  font-weight: bold;
+  font-size: 18px;
+}

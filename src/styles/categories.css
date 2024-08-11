@@ -1,0 +1,32 @@
+.categories-container {
+  margin-inline-start: 20px;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  gap: 8px;
+}
+
+.category-card {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  background-color: var(--lightGrey);
+  border-radius: 50px;
+}
+
+.category-card:hover,
+.category-card:focus {
+  background-color: var(--paleRed);
+  color: var(--white);
+}
+
+.category-card img {
+  width: 24px;
+}
+
+.category-card p {
+  width: max-content;
+  font-size: 14px;
+}

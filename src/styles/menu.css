@@ -1,0 +1,97 @@
+.menu-container {
+  margin-inline: 20px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.menu-item {
+  border: 1px solid var(--lightGrey);
+  border-radius: 6px;
+}
+
+.top-container {
+  position: relative;
+}
+
+.heart-icon {
+  position: absolute;
+  width: 20px;
+  top: 5px;
+  right: 5px;
+}
+
+.food-img {
+  width: 100%;
+}
+
+.bottom-container {
+  padding: 10px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.price {
+  font-weight: 500;
+}
+
+.add-btn {
+  padding: 5px;
+  font-family: inherit;
+  font-size: 12px;
+  background-color: var(--white);
+  color: var(--paleRed);
+  border: 1px solid var(--paleRed);
+  border-radius: 5px;
+}
+
+.add-btn:hover,
+.add-btn:active {
+  background-color: var(--paleRed);
+  color: var(--white);
+}
+
+.added-div {
+  height: 28px;
+  display: flex;
+  background-color: var(--paleRed);
+  color: var(--whiteT);
+  border-radius: 5px;
+}
+
+.added-div p {
+  flex: 2;
+  text-align: center;
+  align-self: center;
+}
+
+.added-div button {
+  flex: 0.5;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.added-div button:active{
+    background-color: var(--white);
+    color: var(--paleRed);
+}
+
+.minus-btn {
+  border: none;
+  border-right: 1px solid var(--whiteT);
+}
+
+.plus-btn {
+  border: none;
+  border-left: 1px solid var(--whiteT);
+}
+
+.minus-btn img,
+.plus-btn img {
+  width: 8px;
+}
