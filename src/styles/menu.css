@@ -34,6 +34,10 @@
   gap: 7px;
 }
 
+.text:nth-child(1) {
+  max-width: 70%;
+}
+
 .price {
   font-weight: 500;
 }
@@ -76,9 +80,9 @@
   justify-content: center;
 }
 
-.added-div button:active{
-    background-color: var(--white);
-    color: var(--paleRed);
+.added-div button:active {
+  background-color: var(--white);
+  color: var(--paleRed);
 }
 
 .minus-btn {

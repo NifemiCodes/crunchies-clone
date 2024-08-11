@@ -39,7 +39,7 @@ const HotDeals = () => {
 
       <div className="card-container">
         <DealCard image="pancakes.png" text="Viral stacking cake with honey" price="9,670" />
-        <DealCard image="pancakes.png" text="Viral stacking cake with honey" price="9,670" />
+        <DealCard image="roast-beef.png" text="Roast beef with black pepper" price="8,000" />
       </div>
     </div>
   );
