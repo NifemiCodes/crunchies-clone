@@ -1,14 +1,17 @@
 .promotions-container {
   display: flex;
   flex-direction: column;
+  gap: 5px;
 }
 
 .promotions-container div {
   flex: 1;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 .promotions--bottom-div {
   display: flex;
+  gap: 5px;
 }
 
 .promotions--top-div img,
