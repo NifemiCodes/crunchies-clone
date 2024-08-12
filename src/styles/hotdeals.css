@@ -33,6 +33,7 @@
 .deal-card {
   position: relative;
   min-width: 200px;
+  max-height: 164.07px;
   border-radius: 20px;
   overflow: hidden;
 }
@@ -45,17 +46,17 @@
 .deal-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 8px;
   position: absolute;
-  background-color: var(--blackT);
-  backdrop-filter: blur(3px);
-  color: var(--white);
-  padding: 10px;
-  border-radius: 12px;
   top: 45%;
   right: 8px;
   left: 8px;
   bottom: 10px;
+  padding: 10px;
+  background-color: var(--blackT);
+  backdrop-filter: blur(3px);
+  color: var(--white);
+  border-radius: 12px;
 }
 
 .deal-info .top-container {
@@ -67,6 +68,7 @@
 .deal-info .top-container p {
   font-size: 14px;
   font-weight: 500;
+  max-width: 70%;
 }
 
 .deal-info .top-container img {
@@ -75,12 +77,13 @@
 
 .deal-info .price-container {
   display: flex;
-  gap: 4px;
   align-items: start;
+  gap: 3px;
 }
 
 .deal-info .price-container img {
   width: 7px;
+  margin-top: 3px;
 }
 
 .deal-info .price-container p {

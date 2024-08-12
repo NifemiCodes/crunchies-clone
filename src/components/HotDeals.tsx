@@ -1,13 +1,7 @@
-import { base } from "../App";
+import { base, CardComponent } from "../App";
 import "../styles/hotdeals.css";
 
-interface dealCard {
-  image: string;
-  text: string;
-  price: string;
-}
-
-const DealCard = ({ image, text, price }: dealCard) => {
+const DealCard = ({ image, text, price }: CardComponent) => {
   return (
     <div className="deal-card">
       <div className="deal-info">

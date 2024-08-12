@@ -1,3 +1,4 @@
+import { base } from "../App";
 import "../styles/header.css";
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
         <p>It's lunch time!</p>
       </div>
       <div className="header-image">
-        <img src={`${import.meta.env.BASE_URL}search-icon.svg`} alt="search icon" />
+        <img src={`${base}search-icon.svg`} alt="search icon" />
       </div>
     </div>
   );

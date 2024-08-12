@@ -1,0 +1,48 @@
+.trending-container {
+  margin-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.trending-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dishes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dish {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.dish-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.dish-right {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dish-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dish-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dish-price::first-letter {
+  color: var(--paleRed);
+}

@@ -8,8 +8,35 @@ body {
   padding-block: 20px;
 }
 
+.unavailable {
+  display: none;
+  background: url("/Shrug-emoticon.png") no-repeat center;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 60%;
+  height: 220px;
+  color: var(--grey);
+
+  & p {
+    width: 70%;
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .unavailable {
+    display: block;
+  }
+
+  .wrapper {
+    display: none;
+  }
 }

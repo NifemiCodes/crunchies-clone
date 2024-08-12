@@ -1,4 +1,6 @@
+import { base } from "../App";
 import "../styles/categories.css";
+
 interface CategoryCard {
   image: string;
   text: string;
@@ -7,7 +9,7 @@ interface CategoryCard {
 const Category = ({ image, text }: CategoryCard) => {
   return (
     <div className="category-card">
-      <img src={`${import.meta.env.BASE_URL}${image}`} alt="category icon" />
+      <img src={`${base}${image}`} alt="category icon" />
       <p>{text}</p>
     </div>
   );

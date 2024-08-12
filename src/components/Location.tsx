@@ -1,3 +1,4 @@
+import { base } from "../App";
 import "../styles/location.css";
 
 const Location = () => {
@@ -6,7 +7,7 @@ const Location = () => {
       {/* icon and text div */}
       <div className="sub-container">
         <div className="location-icon">
-          <img src={`${import.meta.env.BASE_URL}location-icon.svg`} alt="location icon" />
+          <img src={`${base}location-icon.svg`} alt="location icon" />
         </div>
 
         <div className="location-text">
@@ -16,7 +17,7 @@ const Location = () => {
       </div>
 
       {/* arrow icon */}
-      <img src={`${import.meta.env.BASE_URL}arrow-icon.svg`} alt="arrow icon" />
+      <img src={`${base}arrow-icon.svg`} alt="arrow icon" />
     </div>
   );
 };

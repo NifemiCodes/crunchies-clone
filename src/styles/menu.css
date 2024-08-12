@@ -1,6 +1,5 @@
 .menu-container {
   margin-inline: 20px;
-  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
@@ -34,7 +33,7 @@
   gap: 7px;
 }
 
-.text:nth-child(1) {
+.menu-item:nth-child(1) .text {
   max-width: 70%;
 }
 

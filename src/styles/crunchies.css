@@ -1,0 +1,68 @@
+.crunchies-container {
+  margin-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.crunchies-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.product {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.product-icon {
+  position: absolute;
+  top: 10px;
+}
+
+.product-icon.badge {
+  left: 10px;
+  width: 58px;
+  height: 20px;
+}
+
+.product-icon.heart-icon {
+  right: 10px;
+}
+
+.product-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+}
+
+.product-bottom div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .product-price {
+    font-weight: 500;
+  }
+
+  .delivery {
+    font-size: 12px;
+    letter-spacing: -0.3px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .delivery img {
+    width: 12px;
+  }
+}
