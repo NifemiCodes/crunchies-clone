@@ -6,6 +6,8 @@
 }
 
 .menu-item {
+  width: 156px;
+  height: 209px;
   border: 1px solid var(--lightGrey);
   border-radius: 6px;
 }
@@ -23,14 +25,15 @@
 
 .food-img {
   width: 100%;
+  height: 100%;
 }
 
 .bottom-container {
   padding: 10px;
   font-size: 13px;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
+  display: grid;
+  grid-template-rows: 34px 1fr 1fr;
+  align-items: center;
 }
 
 .menu-item:nth-child(1) .text {

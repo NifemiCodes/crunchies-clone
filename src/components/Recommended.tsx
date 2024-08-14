@@ -24,6 +24,10 @@ const Recommended = () => {
       <div className="rec-dish-container">
         <RecDish image="deccan.png" text="Deccan Queen R..." price="₦5,000" />
         <RecDish image="tiffins.png" text="Mamoo's Tiffins" price="₦23,700" />
+        <RecDish image="deccan.png" text="Deccan Queen R..." price="₦5,000" />
+        <RecDish image="tiffins.png" text="Mamoo's Tiffins" price="₦23,700" />
+        <RecDish image="deccan.png" text="Deccan Queen R..." price="₦5,000" />
+        <RecDish image="tiffins.png" text="Mamoo's Tiffins" price="₦23,700" />
       </div>
     </div>
   );
