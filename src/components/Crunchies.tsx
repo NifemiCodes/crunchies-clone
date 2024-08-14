@@ -1,5 +1,6 @@
 import "../styles/crunchies.css";
 import { base } from "../App";
+import Heart from "./Heart";
 
 interface Product {
   image: string;
@@ -13,8 +14,8 @@ const Product = ({ image, text, price, showBadge }: Product) => {
     <div className="product">
       <div className="product-top">
         <img className="food-img" src={`${base}${image}`} alt="product image" />
-        {showBadge ? <img className="product-icon badge" src={`${base}hot-deal.png`} alt="hot deal badge" /> : null}
-        <img className="product-icon heart-icon" src={`${base}heart-icon.png`} alt="heart icon" />
+        {showBadge ? <img className="badge" src={`${base}hot-deal.png`} alt="hot deal badge" /> : null}
+        <Heart />
       </div>
 
       <div className="product-bottom">

@@ -1,0 +1,9 @@
+.heart-empty {
+  width: 20px;
+  height: 20px;
+}
+
+.heart-full {
+  width: 15px;
+  height: 15px;
+}

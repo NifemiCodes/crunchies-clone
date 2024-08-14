@@ -23,19 +23,26 @@
   gap: 10px;
 }
 
-.product-icon {
+.badge,
+.heart-icon {
   position: absolute;
-  top: 10px;
 }
 
-.product-icon.badge {
+.badge {
+  top: 10px;
   left: 10px;
   width: 58px;
   height: 20px;
 }
 
-.product-icon.heart-icon {
+.product .heart-empty {
+  top: 10px;
   right: 10px;
+}
+
+.product .heart-full {
+  top: 13px;
+  right: 13px;
 }
 
 .product-bottom {

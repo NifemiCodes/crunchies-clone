@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { base, CardComponent } from "../App";
+import Heart from "./Heart";
 import "../styles/menu.css";
 
 const MenuItem = ({ image, text, price }: CardComponent) => {
@@ -15,11 +16,11 @@ const MenuItem = ({ image, text, price }: CardComponent) => {
 
   return (
     <div className="menu-item">
-      <div className="top-container">
-        <img className="heart-icon" src={`${base}heart-icon.png`} alt="heart-icon" />
+      <div className="menu-item-top-container">
+        <Heart />
         <img className="food-img" src={`${base}${image}`} alt="menu item image" />
       </div>
-      <div className="bottom-container">
+      <div className="menu-item-bottom-container">
         <p className="text">{text}</p>
         <p className="price">{price}</p>
         {count > 0 ? (
