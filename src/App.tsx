@@ -8,6 +8,7 @@ import HotDeals from "./components/HotDeals";
 import Trending from "./components/Trending";
 import Recommended from "./components/Recommended";
 import Crunchies from "./components/Crunchies";
+import TabBar from "./components/TabBar";
 
 export const base = import.meta.env.BASE_URL;
 export interface CardComponent {
@@ -23,6 +24,7 @@ function App() {
         <p>Oops, this page can't be viewed on large screens. Try opening it on your mobile device instead!</p>
       </div>
       <div className="wrapper">
+        <TabBar />
         <Header />
         <Location />
         <Promotions />

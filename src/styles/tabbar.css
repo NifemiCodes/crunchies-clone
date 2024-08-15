@@ -1,0 +1,95 @@
+.tabbar-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  background-color: var(--white);
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+  padding: 20px 20px 0px 20px;
+  filter: drop-shadow(0 -8px 36px rgba(30, 37, 45, 0.26));
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.icons-subcontainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.tab-marker-container {
+  height: 13px;
+  padding-inline: 10px;
+  position: relative;
+
+  .tab-marker-img {
+    width: 51px;
+    height: 13px;
+    position: absolute;
+    left: 3%;
+    transition: left 150ms ease-in-out;
+  }
+
+  .home {
+    left: 3%;
+  }
+
+  .fav {
+    left: 24.3%;
+  }
+
+  .orders {
+    left: 60.5%;
+  }
+
+  .profile {
+    left: 81.8%;
+  }
+}
+
+.middle-icon {
+  position: absolute;
+  background-color: var(--white);
+  border-radius: 50%;
+  padding: 8px;
+  top: -50%;
+  left: 41%;
+}
+
+.bag-icon-container {
+  background-color: var(--paleRed);
+  border-radius: 50%;
+  height: 52px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0 6px 12px rgba(233, 12, 49, 0.32));
+
+  .bag-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
