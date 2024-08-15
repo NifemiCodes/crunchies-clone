@@ -13,7 +13,7 @@ const Product = ({ image, text, price, showBadge }: Product) => {
   return (
     <div className="product">
       <div className="product-top">
-        <img className="food-img" src={`${base}${image}`} alt="product image" />
+        <img className="product-food-img" src={`${base}${image}`} alt="product image" />
         {showBadge ? <img className="badge" src={`${base}hot-deal.png`} alt="hot deal badge" /> : null}
         <Heart />
       </div>

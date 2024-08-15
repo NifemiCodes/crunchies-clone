@@ -18,8 +18,9 @@ const MenuItem = ({ image, text, price }: CardComponent) => {
     <div className="menu-item">
       <div className="menu-item-top-container">
         <Heart />
-        <img className="food-img" src={`${base}${image}`} alt="menu item image" />
+        <img className="menu-item-food-img" src={`${base}${image}`} alt="menu item image" />
       </div>
+
       <div className="menu-item-bottom-container">
         <p className="text">{text}</p>
         <p className="price">{price}</p>
@@ -28,7 +29,9 @@ const MenuItem = ({ image, text, price }: CardComponent) => {
             <button className="minus-btn" onClick={decrement}>
               <img src={`${base}minus-icon.png`} alt="minus icon" />
             </button>
+
             <p> {count} in bag </p>
+
             <button className="plus-btn" onClick={increment}>
               <img src={`${base}plus-icon.png`} alt="plus icon" />
             </button>
@@ -46,10 +49,14 @@ const MenuItem = ({ image, text, price }: CardComponent) => {
 const Menu = () => {
   return (
     <div className="menu-container">
-      <MenuItem image="brown-rice.png" text="Fried Brown Rice" price="₦5,000" />
-      <MenuItem image="veggie-delight.png" text="Veggie Delight CheeseSteak" price="₦3,200" />
-      <MenuItem image="chicken-burger.png" text="Chicken burger first delivery" price="₦5,000" />
-      <MenuItem image="chicken-wrap.png" text="Crunchies's Chicken wrap" price="₦5,000" />
+      <div className="row">
+        <MenuItem image="brown-rice.png" text="Fried Brown Rice" price="₦5,000" />
+        <MenuItem image="veggie-delight.png" text="Veggie Delight CheeseSteak" price="₦3,200" />
+      </div>
+      <div className="row">
+        <MenuItem image="chicken-burger.png" text="Chicken burger first delivery" price="₦5,000" />
+        <MenuItem image="chicken-wrap.png" text="Crunchies's Chicken wrap" price="₦5,000" />
+      </div>
     </div>
   );
 };

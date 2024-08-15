@@ -23,8 +23,8 @@
   gap: 10px;
 }
 
-.badge,
-.heart-icon {
+.product .badge,
+.product .heart-icon {
   position: absolute;
 }
 
@@ -43,6 +43,11 @@
 .product .heart-full {
   top: 13px;
   right: 13px;
+}
+
+.product-food-img {
+  width: 100%;
+  height: 100%;
 }
 
 .product-bottom {
