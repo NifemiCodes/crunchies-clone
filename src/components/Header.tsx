@@ -9,7 +9,7 @@ const Header = () => {
         <p>It's lunch time!</p>
       </div>
       <div className="header-image">
-        <img src={`${base}search-icon.svg`} alt="search icon" />
+        <img src={`${base}search-icon.png`} alt="search icon" />
       </div>
     </div>
   );

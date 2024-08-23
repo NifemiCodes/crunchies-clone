@@ -6,9 +6,7 @@ const Location = () => {
     <div className="location-container">
       {/* icon and text div */}
       <div className="sub-container">
-        <div className="location-icon">
-          <img src={`${base}location-icon.svg`} alt="location icon" />
-        </div>
+        <img className="location-icon" src={`${base}location-icon.png`} alt="location icon" />
 
         <div className="location-text">
           <h2>Current location</h2>
@@ -17,7 +15,7 @@ const Location = () => {
       </div>
 
       {/* arrow icon */}
-      <img src={`${base}arrow-icon.svg`} alt="arrow icon" />
+      <img className="arrow-icon" src={`${base}arrow-icon.png`} alt="arrow icon" />
     </div>
   );
 };

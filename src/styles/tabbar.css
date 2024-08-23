@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-bottom: 27px;
 }
 
 .icons-subcontainer {
@@ -41,32 +42,16 @@
 
 .tab-marker-container {
   height: 13px;
-  padding-inline: 10px;
-  position: relative;
-
-  .tab-marker-img {
-    width: 51px;
-    height: 13px;
-    position: absolute;
-    left: 3%;
-    transition: left 150ms ease-in-out;
-  }
-
-  .home {
-    left: 3%;
-  }
-
-  .fav {
-    left: 24.3%;
-  }
-
-  .orders {
-    left: 60.5%;
-  }
-
-  .profile {
-    left: 81.8%;
-  }
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.tab-marker-img {
+  width: 51px;
+  height: 13px;
+  position: absolute;
+  transition: left 500ms ease-in-out;
 }
 
 .middle-icon {
